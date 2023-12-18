@@ -9,6 +9,12 @@ const PORT = 5050;
 
 app.use(bodyParser.json());
 
+app.use(
+  bodyParser.urlencoded({
+    extended: true,
+  })
+);
+
 app.listen(PORT, () => {
   console.log(`server is listening on http://${HOST}:${PORT}`);
 });
