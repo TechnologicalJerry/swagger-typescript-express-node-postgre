@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/TechnologicalJerry/swagger-typescript-express-node-postgre/issues"
   },
-  "homepage": "https://github.com/TechnologicalJerry/swagger-typescript-express-node-postgre#readme"
+  "homepage": "https://github.com/TechnologicalJerry/swagger-typescript-express-node-postgre#readme",
+  "dependencies": {
+    "typescript": "^5.3.3"
+  }
 }
