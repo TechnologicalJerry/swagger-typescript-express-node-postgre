@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/TechnologicalJerry/swagger-typescript-express-node-postgre#readme",
   "dependencies": {
+    "nodemon": "^3.0.2",
     "pg": "^8.11.3",
     "postgres": "^3.4.3",
     "ts-node": "^10.9.2",
